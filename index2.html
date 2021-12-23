@@ -2,15 +2,25 @@
 <html>
   <head>
     <title>Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid green;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
     <table>
       <thead>
         <tr>
-          <th style="width">Rank</th>
-          <th>Name</th>
-          <th>Points</th>
-          <th>Team</th>
+          <th style="width:50px">Rank</th>
+          <th style="width:50px">Name</th>
+          <th style="width:50px">Points</th>
+          <th style="width:50px">Team</th>
         </tr>
       </thead>
       <tbody>
@@ -27,7 +37,13 @@
           <td>Students</td>
         </tr>
       </tbody>
-      <tfoot></tfoot>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total Points</td>
+          <td>160510</td>
+          <td></td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
