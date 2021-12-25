@@ -1,3 +1,15 @@
+/*
+[selector] {
+key:value
+}
+*/
 div {
   color: yellow;
 }
+#myInlineDiv {
+  font-size: 25px;
+}
+.myBlockDiv {
+  font-style: italic;
+}
+.font-bold {}
