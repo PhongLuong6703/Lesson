@@ -12,4 +12,6 @@ div {
 .myBlockDiv {
   font-style: italic;
 }
-.font-bold {}
+.font-bold {
+  font-weight: bold;
+}
