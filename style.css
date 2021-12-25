@@ -15,3 +15,13 @@ div {
 .font-bold {
   font-weight: bold;
 }
+#box-model {
+  width:100px;
+  height: 100px;
+  background-color: green;
+  border-width: 10px;
+  border-color: gray;
+  border-style: solid; /* solid: vach lien; dotted: vach cham*/
+  padding-left: 10px;
+  margin-left: 10px;
+}
