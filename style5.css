@@ -10,11 +10,25 @@ body {
   border: 3px solid green;
   position: relative;
   left: 20px;
-  top: 20px;
 }
 .fixed {
   border: 3px solid green;
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+.absolute {
+  border: 3px solid green;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.absolute-container {
+  border: 3px solid green;
+  position: static;
+  width: 500px;
+  height: 200px;
+}
+.stickey {
+  border: 3px solid green;
 }
