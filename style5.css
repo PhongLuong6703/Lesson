@@ -25,10 +25,18 @@ body {
 }
 .absolute-container {
   border: 3px solid green;
-  position: static;
-  width: 500px;
+  position: absolute;
+  width: 600px;
   height: 200px;
 }
-.stickey {
+.sticky {
   border: 3px solid green;
+  position: sticky;
+  top: 10px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
 }
