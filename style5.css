@@ -40,3 +40,16 @@ body {
 .bg-blue {
   background-color: blue;
 }
+.flex {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  background-color: lightgray;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid blue;
+  background-color: white;
+}
