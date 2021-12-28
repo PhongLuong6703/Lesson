@@ -1,3 +1,20 @@
 body {
   height: 2000px;
 }
+.static {
+  border: 3px solid green;
+  position: static;
+  left: 20px; /*not working*/
+}
+.relative {
+  border: 3px solid green;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.fixed {
+  border: 3px solid green;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
