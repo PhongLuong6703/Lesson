@@ -45,6 +45,9 @@ body {
   width: 600px;
   height: 500px;
   background-color: lightgray;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
 .item {
   width: 50px;
@@ -52,4 +55,9 @@ body {
   font-size: 18px;
   border: 1px solid blue;
   background-color: white;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
