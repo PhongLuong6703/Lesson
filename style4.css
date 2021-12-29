@@ -32,3 +32,10 @@ border-box +> actual size = width && height
   box-sizing: border-box;
   border: 10px solid gray;
 }
+a:hover {
+        color: red;
+        background-color: green;
+      }
+a[href^="#abcd"]{
+ color: cyan;
+ }
