@@ -32,4 +32,5 @@ console.log(_name.replace(/\s+/g,''))
 //regex js
 let _number = 9;
 console.log(_number++);
-console.log(_number++ + ++_number + _number++);
+console.log(++_number);
+console.log(_number++ + ++_number);
