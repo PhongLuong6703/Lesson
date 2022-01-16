@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Random Colors</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+            }
+            div {
+                width: 700px;
+                height: 700px;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div">
+            <button id="btn" onclick="color()">Change Color</button>
+        </div>
+        <script>
+            function color() {
+               const randomColor = Math.floor(Math.random()*16777215).toString(16);
+               document.getElementById("div").style.backgroundColor = "#" + randomColor;
+            }
+        </script>
+    </body>
+</html>

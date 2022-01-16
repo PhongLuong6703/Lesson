@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Objects</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h2 id="name">Vũ Phong Lâm</h2>
+        <input id="add" type="text" placeholder="Nhập Đoạn Văn Bản Thay Thế" />
+        <button onclick="Change()" id = "btn">Thay Đổi</button>
+        <br />
+        <img id="pic" src="https://upanh123.com/wp-content/uploads/2020/11/anh-co-trang-dep1.jpg" />
+        <script>
+            let add = document.getElementById("add");
+            let name = document.getElementById("name");
+            function Change() {
+                name.innerHTML = add.value
+            }
+        </script>
+    </body>
+</html>

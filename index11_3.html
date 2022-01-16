@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Exercise 3</title>
+    </head>
+    <body>
+        <ul id="fruits">
+            <li>Táo</li>
+            <li>Cam</li>
+            <li>Chanh</li>
+        </ul>
+        <button id="add" onclick="Add()">Thêm</button>
+        <button id="remove" onclick="Remove()">Xoá</button>
+        <script>
+            function Add() {
+                let list = document.getElementById("fruits");
+                let a = document.createElement("li");
+                let b = document.createTextNode("Chanh");
+                a.appendChild(b);
+                list.appendChild(a)
+            }
+            function Remove() {
+                let list = document.getElementById("fruits");
+                list.removeChild(list.lastChild);
+            }
+        </script>
+    </body>
+</html>

@@ -7,7 +7,7 @@ let hoa = prompt("Nhap Vao Diem Hoa")
 let ave = (Number(toan) + Number(ly) +Number(hoa))/3;
 console.log(ave.toFixed(1))
 
-let _number = "9";
+let _number = 9;
 //_number++ = 10;
 //_number = _number + 1; //<=> _number += 1; _number ++ 1
 console.log(_number++)

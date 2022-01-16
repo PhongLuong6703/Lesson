@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>DOM Events</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <button onclick="this.innerHTML = 'Clicked'">Click Me 1</button>
+        <button id="btnClickMe2">Click Me 2</button>
+        <button id="btnClickMe3">Click Me 3</button>
+
+        <div id="outer">
+            outer
+            <div onclick="console.log('inner')">
+                inner
+                <button onclick = "console.log('Click Me 4')">Click Me 4</button>
+            </div>
+        </div>
+        <div>
+            <ul id="todolist">
+                <li>Working</li>
+                <li>Jogging</li>
+                <li>Shopping</li>
+            </ul>
+        </div>
+
+        <form id="myForm">
+            <input type="text" />
+            <input type="text" />
+            <input type="radio" />
+            <input type="checkbox" />
+        </form>
+
+        <script src="script12_1.js"></script>
+    </body>
+</html>
